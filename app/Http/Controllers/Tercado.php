@@ -10,5 +10,13 @@ class Tercado extends Controller
     {
         return view('accueil');
     }
+    public function presentation()
+    {
+        return view('presentation');
+    }
+    public function equipe()
+    {
+        return view('equipe');
+    }
 }
 

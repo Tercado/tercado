@@ -1,8 +1,8 @@
 <div class="navbar-onglets">
 <ul class="onglets">
     <li><a href="#">ACCUEIL</a></li>
-    <li><a href="#">PRESENTATION</a></li>
-    <li><a href="#">EQUIPE</a></li>
+    <li><a href="/presentation">PRESENTATION</a></li>
+    <li><a href="/equipe">EQUIPE</a></li>
     <li><a href="#">AU RESTAURANT</a></li>
     <li><a href="#">LA CARTE</a></li>
     <li><a href="#">BURGERS</a></li>

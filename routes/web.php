@@ -12,3 +12,5 @@
 */
 
 Route::get('/','Tercado@accueil');
+Route::get('/presentation','Tercado@presentation');
+Route::get('/equipe','Tercado@equipe');
