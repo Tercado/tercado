@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+}
+/**************/
+/****NAVBAR****/
+/**************/
+
+.navbar {
+    width: 100%;
+    min-height: 130px;
+    background-color: #31A3DD;
+    display: flex;
+    flex-wrap: wrap;
+}
+.under-image-navbar{
+    color:white;
+    font-size: 17px;
+    font-weight: 600;
+}
+.navbar-left{
+    min-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.navbar-right{
+    min-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.coordonnes-navbar{
+    margin: 5px;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+}
+.icone-navbar{
+    padding-right: 10px;
+}
+
+/*******************/
+/***NAVBARONGLETS***/
+/*******************/
+
+.navbar-onglets{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+}
+.onglets li{
+    float: left;
+    list-style-type: none;
+}
+li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+li a:hover {
+    background-color: #31A3DD;
+    box-shadow: 4px 4px 2px 1px grey;
+}
+
+/*****************/
+/******SLIDE******/
+/*****************/
+.slide{
+    width: 100%;
+    height: 2000px;
+}
+
+/*****************+****/
+/*****MEDIAQUERIES*****/
+/**********************/
+
+@media (max-width:650px){
+    .navbar{
+        display: flex;
+        justify-content: center;
+    }
+}
