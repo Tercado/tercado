@@ -100,6 +100,62 @@ li a:hover {
     height: 1000px;
     background-color:#004982;
 }
+
+/***************************************AURESTAURANT***************************************/
+.restaurant-content{
+    width: 100%;
+    background-color:#004982;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/***************************************ALACARTE******************************************/
+.carte-content{
+    width: 100%;
+    display: flex;
+    background-color: #004982;
+    flex-direction: column;
+    align-items: center;
+}
+/*************************************AUBAR**********************************************/
+.bar-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color:#004982;
+}
+/*****************************************BOUTIQUE****************************************/
+.boutique-content{
+    width: 100%;
+    background-color: #004982;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.vins{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+}
+.vin{
+    display: flex;
+    justify-content: space-between;
+}
+.marque-vin{
+    font-size: 30px;
+    color: red;
+    text-transform: uppercase;
+}
+.label-vin{
+    font-size: 20px;
+}
+.price{
+    font-size: 20px;
+}
+.transparent{
+    color: transparent;
+}
 /*****************+****/
 /*****MEDIAQUERIES*****/
 /**********************/

@@ -3,11 +3,11 @@
     <li><a href="#">ACCUEIL</a></li>
     <li><a href="/presentation">PRESENTATION</a></li>
     <li><a href="/equipe">EQUIPE</a></li>
-    <li><a href="#">AU RESTAURANT</a></li>
-    <li><a href="#">LA CARTE</a></li>
+    <li><a href="/restaurant">AU RESTAURANT</a></li>
+    <li><a href="/carte">LA CARTE</a></li>
     <li><a href="#">BURGERS</a></li>
-    <li><a href="#">AU BAR</a></li>
-    <li><a href="#">LA BOUTIQUE</a></li>
+    <li><a href="/bar">AU BAR</a></li>
+    <li><a href="/boutique">LA BOUTIQUE</a></li>
     <li><a href="#">HORAIRES</a></li>
     <li><a href="#">POUR LES ARTISTES</a></li>
     <li><a href="#">AGENDA</a></li>

@@ -14,3 +14,7 @@
 Route::get('/','Tercado@accueil');
 Route::get('/presentation','Tercado@presentation');
 Route::get('/equipe','Tercado@equipe');
+Route::get('/restaurant','Tercado@restaurant');
+Route::get('/carte','Tercado@carte');
+Route::get('/bar', 'Tercado@bar');
+Route::get('/boutique', 'Tercado@boutique');
