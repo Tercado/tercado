@@ -2,20 +2,24 @@
 
 @section('main')
  <div class="restaurant-content">
-     <div>
-        <img src="./img/restaurant1.jpg">
-        <p>Le Tercado vous propose : </p>
-        <p>Un menu du jour à 13€ avec :<br>Entrée, plat, fromage, dessert et café.</p>
-        <img src="./img/restaurant2.jpg">
-        <p>Un menu du jour à 13,50€ avec : <br>Entrée, plat, fromage, dessert, café et vin.</p>
-        <br>
-        <p>Du lundi au vendredi</p>
-        <img src="./img/restaurant3.jpg">
-        <p>Carte de saison et burgers.</p>
-        <img src="./img/restaurant4.jpg">
-        <p>Du mercredi au dimanche soir de 18h à 20h30, burgers à emporter.</p>
-        <img src="./img/restaurant5.jpg">
+     <div class="restaurant-un">
+         <div>
+            <h3>Le Tercado vous propose : </h3>
+            <p>Un menu du jour à 13€ avec :<br>Entrée, plat, fromage, dessert et café.</p>
+            <p>Un menu du jour à 13,50€ avec : <br>Entrée, plat, fromage, dessert, café et vin.</p>
+         </div>
+         <div>
+            <img src="./img/restaurant1.jpg">
+         </div>
      </div>
-
+     <h3 class="title-restaurant-deux">Du lundi au vendredi</h3>
+     <div class="restaurant-deux">
+        <div class="carte">
+            <p>Cartes de saison</p>
+        </div>
+        <div class="burgers">
+            <p>Burgers</p>
+        </div>
+     </div>
  </div>
 @endsection

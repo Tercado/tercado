@@ -34,5 +34,21 @@ class Tercado extends Controller
     {
         return view('boutique');
     }
+    public function horaire()
+    {
+        return view('horaire');
+    }
+    public function evenement()
+    {
+        return view('evenement');
+    }
+    public function artiste()
+    {
+        return view ('artiste');
+    }
+    public function burger()
+    {
+        return view('burger');
+    }
 }
 

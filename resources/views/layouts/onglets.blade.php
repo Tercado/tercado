@@ -1,20 +1,47 @@
 <div class="navbar-onglets">
-<ul class="onglets">
-    <li><a href="#">ACCUEIL</a></li>
-    <li><a href="/presentation">PRESENTATION</a></li>
-    <li><a href="/equipe">EQUIPE</a></li>
-    <li><a href="/restaurant">AU RESTAURANT</a></li>
-    <li><a href="/carte">LA CARTE</a></li>
-    <li><a href="#">BURGERS</a></li>
-    <li><a href="/bar">AU BAR</a></li>
-    <li><a href="/boutique">LA BOUTIQUE</a></li>
-    <li><a href="#">HORAIRES</a></li>
-    <li><a href="#">POUR LES ARTISTES</a></li>
-    <li><a href="#">AGENDA</a></li>
-    <li><a href="#">EVENEMENTS</a></li>
-    <li><a href="#">PHOTOS,VIDEOS</a></li>
-    <li><a href="#">FACEBOOK</a></li>
-    <li><a href="#">LIVRE D'OR</a></li>
-    <li><a href="#">PARTENAIRES</a></li>
-</ul>
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link" href="/">Accueil</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/presentation">Presentation</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/equipe">Equipe</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Restaurant</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="/restaurant">Au restaurant</a>
+                <a class="dropdown-item" href="/carte">La carte</a>
+                <a class="dropdown-item" href="/burger">Les burgers</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/bar">Bar</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/boutique">La boutique</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/horaire">Horaires</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/artiste">Artistes</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/evenement">Evenements</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Media</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Photos, vidéos</a>
+                <a class="dropdown-item" href="#">Facebook</a>
+                <a class="dropdown-item" href="#">Livre d'or</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Partenaires</a>
+        </li>
+    </ul>
 </div>
