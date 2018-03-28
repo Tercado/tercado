@@ -4,9 +4,6 @@
             <a class="nav-link" href="/">Accueil</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="/presentation">Presentation</a>
-        </li>
-        <li class="nav-item">
             <a class="nav-link" href="/equipe">Equipe</a>
         </li>
         <li class="nav-item dropdown">

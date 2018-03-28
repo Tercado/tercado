@@ -1,3 +1,14 @@
+/*
+grisclaid: #67635B
+bleuclair: #1CB2EB;
+bleuciel: #61B0C9;
+blancgris: #F7F2F1;
+*/
+
+
+*{
+    color:white;
+}
 body{
     margin: 0;
     font-family: 'Nunito', sans-serif!important;
@@ -9,7 +20,7 @@ body{
 .navbar{
     width: 100%;
     min-height: 110px;
-    background-color: #31A3DD;
+    background-color: #26304C;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -50,8 +61,6 @@ li a:hover {
     width: 100%;
     height: 2000px;
 }
-
-/******************************************PRESENTATION************************************/
 .navbar-trois{
     width: 100%;
     height: 100px;
@@ -59,7 +68,13 @@ li a:hover {
 }
 .presentation-content{
     background-color: #004982;
-    font-size: 50px;
+    font-size: 17px;
+    margin: 0 0 10px 0;
+}
+.presentation-content > p{
+    color: #fff;
+    text-align: center;
+    margin: 0 20px;
 }
 
 /*****************************************EQUIPE*******************************************/
@@ -117,6 +132,15 @@ li a:hover {
     text-transform: uppercase;
     font-weight: bold;
 }
+.texte-restaurant{
+    border: 2px solid black;
+}
+.center-restaurant{
+    text-align: center;
+}
+.content-restaurant{
+    margin-right: 20px;
+}
 /***************************************ALACARTE******************************************/
 .carte-content{
     width: 100%;
@@ -132,6 +156,24 @@ li a:hover {
     justify-content: center;
     background-color:#004982;
 }
+.image-bar{
+    position: relative;
+    z-index: 1;
+    width: 820px;
+    opacity: 0.9;
+}
+.texte-bar{
+    width: 820px;
+    z-index: 2;
+    margin: 10px auto;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    border: 2px solid black;
+}
+.middle-bar{
+    width: 820px;
+}
 /*****************************************BOUTIQUE****************************************/
 .boutique-content{
     width: 100%;
@@ -144,6 +186,8 @@ li a:hover {
     width:50%;
     display: flex;
     flex-direction: column;
+    margin: 20px 0;
+    border: 2px solid black;
 }
 .vin{
     display: flex;
@@ -153,6 +197,8 @@ li a:hover {
     font-size: 30px;
     color: red;
     text-transform: uppercase;
+    background: #2A2B39;
+    margin: 0;
 }
 .label-vin{
     font-size: 20px;
@@ -163,7 +209,16 @@ li a:hover {
 .transparent{
     color: transparent;
 }
-
+.sous-marque-vin{
+    background: #313B4F;
+    margin: 0;
+}
+.first-background{
+    background: #FAF9FA;
+}
+.second-background{
+    background: #89949B;
+}
 /******************************************HORAIRE*****************************************/
 .horaire-content{
     width: 100%;
