@@ -14,12 +14,16 @@
      </div>
      <h3 class="title-restaurant-deux">Du lundi au vendredi</h3>
      <div class="restaurant-deux">
-        <div href="/carte" class="carte photo-restaurant">
-            <p>Cartes de saison</p>
-        </div>
-         <div class="burgers photo-restaurant">
-            <p>Burgers</p>
-        </div>
+        <a href="/carte">
+            <div class="carte photo-restaurant">
+                <p>Cartes de saison</p>
+            </div>
+        </a>
+         <a href="/burger">
+            <div class="burgers photo-restaurant">
+                <p>Burgers</p>
+            </div>
+         </a>
      </div>
  </div>
 @endsection

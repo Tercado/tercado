@@ -5,7 +5,7 @@
     <p>Le TERCADO est un bar restaurant panoramique multi-culturel ou se côtoient
 
         toutes les formes d’arts. L’art pictural avec l’exposition d’artistes sur les murs de
-
+a
         nos salles, l’art musical avec un bar d’ambiance proposant des thématiques
 
         musicales. L’art sculpturale avec la mise a disposition de nos espaces extérieurs
