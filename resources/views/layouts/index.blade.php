@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <title>Le Tercado</title>
     <link type="text/css" href="./css/style.css" rel="stylesheet">
-    <script type="text/javascript" src="{{ URL::asset('js/script.js') }}"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script type="text/javascript" src="{{ URL::asset('./js/script.js') }}"></script>
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
