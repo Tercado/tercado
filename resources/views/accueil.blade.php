@@ -19,7 +19,7 @@
 
     <div class="slide-container">
         <div class="slide first-item">
-            <img class="image-slide" src="http://www.letercado.com/wp-content/uploads/2016/10/14589769_676611709161568_1318159520529888795_o.jpg">
+            <img class="image-slide"  src="http://www.letercado.com/wp-content/uploads/2016/10/14589769_676611709161568_1318159520529888795_o.jpg">
             <div class="text-from-left slide-left-right-first">
                 <p class="text-content">BIENVENUE !</p>
             </div>
@@ -55,7 +55,7 @@
             </div>
         </div>
         <div class="slide third-item">
-            <img class="image-slide" src="http://www.letercado.com/wp-content/uploads/2017/03/IMG_0330-e1488477740473.jpg">
+            <img class="image-slide"  src="http://www.letercado.com/wp-content/uploads/2017/03/IMG_0330-e1488477740473.jpg">
             <div class="text-from-left slide-left-right-third">
                 <p class="text-content">AU RESTAURANT</p>
             </div>

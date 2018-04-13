@@ -1,13 +1,13 @@
 <div class="navbar-onglets">
-    <ul class="nav nav-pills">
+    <ul class="nav">
         <li class="nav-item">
-            <a class="nav-link" href="/">Accueil</a>
+            <a class="onglets-center" href="/">Accueil</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="/equipe">Equipe</a>
+            <a class="onglets-center" href="/equipe">Equipe</a>
         </li>
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Restaurant</a>
+            <a class="dropdown-toggle onglets-center" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Restaurant</a>
             <div class="dropdown-menu">
                 <a class="dropdown-item" href="/restaurant">Au restaurant</a>
                 <a class="dropdown-item" href="/carte">La carte</a>
@@ -15,22 +15,22 @@
             </div>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="/bar">Bar</a>
+            <a class="onglets-center" href="/bar">Bar</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="/boutique">La boutique</a>
+            <a class="onglets-center" href="/boutique">Boutique</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="/horaire">Horaires</a>
+            <a class="onglets-center" href="/horaire">Horaires</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="/artiste">Artistes</a>
+            <a class="onglets-center" href="/artiste">Artistes</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="/evenement">Evenements</a>
+            <a class="onglets-center" href="/evenement">Evenements</a>
         </li>
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Media</a>
+            <a class="dropdown-toggle onglets-center" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Media</a>
             <div class="dropdown-menu">
                 <a class="dropdown-item" href="#">Photos, vidéos</a>
                 <a class="dropdown-item" href="#">Facebook</a>
@@ -38,7 +38,7 @@
             </div>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Partenaires</a>
+            <a class="onglets-center" href="#">Partenaires</a>
         </li>
     </ul>
 </div>
