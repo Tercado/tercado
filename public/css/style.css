@@ -197,10 +197,6 @@ li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: black;
-    font-size: 30px;
-    text-transform: uppercase;
-    font-weight: bold;
 }
 .burgers{
     background: url("../img/restaurant3.jpg") no-repeat center;
@@ -216,6 +212,14 @@ li a:hover {
 }
 .texte-restaurant{
     border: 2px solid black;
+}
+.photo-restaurant p{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.no-underline{
+    text-decoration: none;
 }
 .center-restaurant{
     text-align: center;
@@ -319,6 +323,20 @@ li a:hover {
     .navbar-left, .navbar-right{
         margin: 0 auto;
     }
+}
+
+/****************************************COMMANDE*****************************************/
+.title-commande{
+    color: black;
+    text-align: center;
+}
+.commande-form{
+    border: 1px solid blue;
+    width: 400px;
+    margin: 0 auto;
+}
+.commande-form div{
+    color: black;
 }
 
 /*****************************************ARTISTE*****************************************/

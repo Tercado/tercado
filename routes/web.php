@@ -22,3 +22,4 @@ Route::get('/horaire', 'Tercado@horaire');
 Route::get('/evenement', 'Tercado@evenement');
 Route::get('/artiste', 'Tercado@artiste');
 Route::get('/burger', 'Tercado@burger');
+Route::get('/commander', 'Tercado@commander');

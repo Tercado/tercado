@@ -21,6 +21,9 @@
             <a class="onglets-center" href="/boutique">Boutique</a>
         </li>
         <li class="nav-item">
+            <a class="onglets-center" href="/commander">Commander à manger</a>
+        </li>
+        <li class="nav-item">
             <a class="onglets-center" href="/horaire">Horaires</a>
         </li>
         <li class="nav-item">

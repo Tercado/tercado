@@ -50,5 +50,9 @@ class Tercado extends Controller
     {
         return view('burger');
     }
+    public function commander()
+    {
+        return view ('commander');
+    }
 }
 
